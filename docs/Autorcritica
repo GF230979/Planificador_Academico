@@ -1,0 +1,53 @@
+# Autocrítica del avance del proyecto
+## Planificador Académico con Prerrequisitos
+
+### 1. Evaluación del trabajo realizado
+
+Durante el desarrollo del Planificador Académico con Prerrequisitos se logró implementar una estructura modular que permite registrar materias, establecer relaciones de prerrequisitos y generar un plan académico organizado por niveles mediante el algoritmo de Kahn.
+
+La implementación se dividió en componentes independientes para facilitar su comprensión, mantenimiento y verificación. Además, se realizaron pruebas unitarias para comprobar el funcionamiento de las clases y estructuras principales. En la ejecución general se obtuvieron 32 pruebas exitosas, sin fallos ni errores.
+
+### 2. Fortalezas identificadas
+
+- **Modularidad:** el código se organizó en módulos con responsabilidades definidas, facilitando su mantenimiento.
+- **Validación de datos:** se incorporaron controles para evitar materias duplicadas, datos vacíos y relaciones inválidas.
+- **Aplicación de estructuras de datos:** se implementaron un grafo dirigido y una cola FIFO para desarrollar el algoritmo de planificación.
+- **Detección de ciclos:** el planificador identifica relaciones circulares que impiden generar un orden válido.
+- **Pruebas unitarias:** se verificaron los componentes principales antes de integrarlos.
+- **Integración funcional:** se comprobó mediante una prueba manual que el usuario puede registrar materias, establecer prerrequisitos y generar el plan académico desde la consola.
+
+### 3. Aspectos por mejorar
+
+Aunque el núcleo del sistema funciona correctamente, todavía existen aspectos que deben fortalecerse:
+
+- **Persistencia de información:** las materias registradas se mantienen únicamente mientras la aplicación está abierta. Actualmente no existe almacenamiento permanente, aspecto que queda fuera del alcance definido para esta etapa.
+- **Pruebas de integración automatizadas:** se verificó manualmente el flujo principal, pero conviene ampliar las pruebas automatizadas que comprueben la interacción entre la interfaz, el grafo y el planificador.
+- **Interfaz de usuario:** la aplicación utiliza una consola de texto sencilla. Se puede mejorar la claridad de los mensajes y la orientación al usuario sin alterar el alcance aprobado.
+- **Documentación:** se debe completar la revisión del documento de diseño, organizar las evidencias y asegurar que la documentación describa fielmente la implementación.
+- **Validación de escenarios adicionales:** es conveniente probar entradas incorrectas y diferentes combinaciones de prerrequisitos para reforzar la confiabilidad del sistema.
+
+### 4. Dificultades encontradas y aprendizaje
+
+Durante las pruebas del planificador se detectó una discrepancia en un caso de prueba relacionado con la agrupación por niveles. Una materia independiente debía ubicarse en el mismo nivel que otra materia sin prerrequisitos, pero la prueba esperaba un resultado diferente.
+
+La dificultad se resolvió revisando la lógica del algoritmo y corrigiendo la expectativa de la prueba. Esta experiencia permitió comprender mejor que las materias independientes pueden procesarse en un mismo nivel y que los casos de prueba deben corresponder al comportamiento definido para el algoritmo.
+
+También se comprobó la importancia de ejecutar las pruebas de manera individual y general para detectar errores y verificar que los componentes continúen funcionando correctamente en conjunto.
+
+### 5. Plan de mejora
+
+Para continuar con el proyecto se propone:
+
+1. Verificar la correspondencia entre el diseño aprobado y el código implementado.
+2. Mantener las pruebas unitarias y conservar sus resultados como evidencia.
+3. Ampliar las pruebas de integración del flujo principal.
+4. Actualizar la documentación técnica y la bitácora de desarrollo.
+5. Verificar el versionamiento del proyecto y mantener un historial organizado de cambios.
+6. Preparar la demostración del funcionamiento y la exposición del avance.
+7. Identificar las mejoras que correspondan a la siguiente fase sin incorporar funcionalidades ajenas al alcance aprobado.
+
+### 6. Conclusión
+
+La evaluación del avance permite concluir que se cuenta con una base funcional y modular para el Planificador Académico con Prerrequisitos. Las pruebas realizadas respaldan el comportamiento de las estructuras principales y del algoritmo de planificación en los escenarios evaluados.
+
+Sin embargo, superar las pruebas unitarias no significa que el proyecto esté completamente terminado. Es necesario continuar con la documentación, las evidencias, la revisión de los requisitos y la preparación de la entrega. El trabajo realizado proporciona una base sólida para completar las siguientes actividades de acuerdo con el alcance y los criterios de evaluación establecidos.
