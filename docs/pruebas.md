@@ -64,3 +64,11 @@ se ejecutó el comando:
 El resultado mostrado fue `Ran 32 tests` y `OK`.
 <img width="1391" height="862" alt="imagen" src="https://github.com/user-attachments/assets/a05cf11e-5562-4219-a5ce-43a51bdd4f63" />
 
+
+Pruebas manuales
+
+<img width="707" height="755" alt="imagen" src="https://github.com/user-attachments/assets/25b4d43f-19ee-490c-8a16-4c35109fa4df" />
+<img width="490" height="787" alt="imagen" src="https://github.com/user-attachments/assets/ee1a7fdd-041f-4808-ae17-5f5bb49dcef5" />
+
+
+
